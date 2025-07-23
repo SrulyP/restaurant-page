@@ -42,6 +42,9 @@ const MenuPage = {
         
         this.main = this.createEl("main");
 
+        this.menuHeader = this.createEl("div", "menu-header");
+        this.menuHeader_h2 = this.createEl("h2");
+
         // Food section
         this.foodSection = this.createEl("section", "food");
 
@@ -194,6 +197,8 @@ const MenuPage = {
     },
 
     textFilling() {
+        this.menuHeader_h2.textContent = "Our Menu";
+
         // Salads
         this.salads_h2.textContent = "Salads";
 
@@ -335,6 +340,9 @@ const MenuPage = {
 
     appending() {
         this.mainContent.appendChild(this.main);
+
+        this.main.appendChild(this.menuHeader);
+        this.menuHeader.appendChild(this.menuHeader_h2);
 
         this.main.appendChild(this.foodSection);
         this.main.appendChild(this.drinksSection);
