@@ -148,6 +148,11 @@ main {
   font-weight: 500;
 }
 
+iframe {
+    width: 50vw; 
+    height: 50vh;
+}
+
 /* ==================================== Images ==================================== */
 
 main img {
@@ -163,10 +168,8 @@ footer {
     color: var(--dark-brown);
 }
 
-iframe {
-    width: 50vw; 
-    height: 50vh;
-}
+/* ==================================== Media Query ==================================== */
+
 
 @media (max-width:800px) {
     main img {
