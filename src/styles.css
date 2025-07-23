@@ -59,6 +59,12 @@ header button:hover {
     transition: 0.1s;
 }
 
+header button:active {
+    background-color: var(--medium-pink);
+    transform: scale(0.98);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 /* ==================================== Main ==================================== */
 
 main {
