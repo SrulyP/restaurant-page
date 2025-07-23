@@ -123,6 +123,23 @@ main {
 
 .location-and-info p {
     line-height: 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 12.5;
+}
+
+.information > div {
+    padding: 10px;
+}
+
+.hours-row {
+  display: flex;
+  gap: 10px;
+  line-height: 1.6rem;
+}
+
+.hours-row .day {
+  width: 45px;
+  font-weight: 500;
 }
 
 /* ==================================== Images ==================================== */
