@@ -1,13 +1,111 @@
-.menu-header h2 {
+/* ==================================== Menu Page ==================================== */
+
+.menu-header {
+    background-color: var(--cream);
+    padding: 60px 40px;
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--mustard);
+}
+
+.menu-header h2 {
+    font-size: 3rem;
     font-family: "Libre Baskerville";
+    color: var(--dark-brown);
+    letter-spacing: 0.1rem;
+}
+
+/* ==================================== Sections ==================================== */
+
+.food, .drinks {
+    padding: 40px 20px;
+}
+
+.food {
+    background-color: var(--honey-cream);
+}
+
+.drinks {
+    background-color: var(--cream);
+}
+
+/* ==================================== Category Headers ==================================== */
+
+.salads h2, .burgers h2, .sides h2, .dessert h2, 
+.alcohol h2, .soft-drinks h2 {
+    font-family: "Libre Baskerville";
+    font-size: 2.2rem;
+    color: var(--dark-brown);
+    text-align: center;
+    margin: 40px 0 30px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--mustard);
+    max-width: 300px;
+}
+
+/* ==================================== Menu Items Layout ==================================== */
+
+.salads, .burgers, .sides, .dessert, .alcohol, .soft-drinks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ==================================== Menu Items ==================================== */
+
+.menu-item {
+    background-color: var(--cream);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.menu-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 section img {
-    width: 250px;
-    height: 250px; 
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     object-position: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: 2px solid var(--light-pink);
 }
+
+.menu-item h3 {
+    font-size: 1.4rem;
+    color: var(--dark-brown);
+    margin-bottom: 8px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: var(--medium-brown);
+    line-height: 1.4;
+    margin-bottom: 15px;
+    max-width: 25ch;
+}
+
+/* ==================================== Prices ==================================== */
+
+.price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--mustard);
+    background-color: var(--dark-brown);
+    padding: 8px 16px;
+    border-radius: 20px;
+    letter-spacing: 0.1rem;
+}
+
