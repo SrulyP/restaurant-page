@@ -1,14 +1,14 @@
 /* ==================================== Root and All ==================================== */
 
 :root {
-    --honey: #E1B80D;
+    --mustard: #E1B80D;
     --dark-brown: #3c2a2a;
-    --medium-brown: #6c4b4b;
+    --medium-brown: #8b6868;
     --medium-pink: #a66e6e;
     --light-pink: #d1b3b3;
-    --almost-white: #f5e5e5;
+    --honey-cream: #f1e4b3;
+    --cream: #f9f5e3;
 }
-
 
 * {
     margin: 0;
@@ -27,18 +27,36 @@ html, body {
 
 header {
     display: flex;
-    padding: 10px;
-    text-align: center;
-    background-color: var(--honey);
-    color: var(--dark-brown);
-    letter-spacing: .2rem;
+    padding: 15px;
+    background-color: var(--mustard);
     justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 header h1 {    
     font-family: "Libre Baskerville";
     font-size: 2rem;
     font-weight: 600;
+    color: var(--dark-brown);
+    letter-spacing: .2rem;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+header button {
+    padding: 0 15px;
+    font-size: 1.1rem;
+    border: none;
+    background-color: var(--cream);
+    border-radius: 10px;
+}
+
+header button:hover {
+    background-color: var(--honey-cream);
+    transition: 0.1s;
 }
 
 /* ==================================== Main ==================================== */
@@ -49,10 +67,45 @@ main {
     height: 100%;
 }
 
+/* ==================================== Top ==================================== */
+
+.top {
+    background-color: var(--cream);
+    color: var(--dark-brown);
+    padding: 80px;
+    text-align: center;
+}
+
+.top > h2 {
+    font-family: "Libre Baskerville";
+    font-size: 3rem;
+}
+
+.top > h3 {
+    font-size: 2rem;
+    font-family: "Dancing Script", cursive;
+    padding: 10px;
+}
+
+.top > p {
+    max-width: 40ch;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 /* ==================================== Footer ==================================== */
 
 footer {
     padding: 10px;
     background-color: var(--medium-pink);
     color: var(--dark-brown);
+}
+
+/* ==================================== Images ==================================== */
+
+img {
+    width: 500px;
+    height: auto;
 }
