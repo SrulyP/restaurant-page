@@ -28,6 +28,14 @@
     background-color: var(--cream);
 }
 
+/* ==================================== Category Containers ==================================== */
+
+.salads, .burgers, .sides, .dessert, .alcohol, .soft-drinks {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /* ==================================== Category Headers ==================================== */
 
 .salads h2, .burgers h2, .sides h2, .dessert h2, 
@@ -44,13 +52,12 @@
 
 /* ==================================== Menu Items Layout ==================================== */
 
-.salads, .burgers, .sides, .dessert, .alcohol, .soft-drinks {
+.salads-items, .burgers-items, .sides-items, .dessert-items, 
+.alcohol-items, .soft-drinks-items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    margin-top: 20px;
 }
 
 /* ==================================== Menu Items ==================================== */
@@ -108,4 +115,3 @@ section img {
     border-radius: 20px;
     letter-spacing: 0.1rem;
 }
-
