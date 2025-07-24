@@ -51,32 +51,34 @@ const MenuPage = {
         // Salads
         this.salads = this.createEl("div", "salads");
         this.salads_h2 = this.createEl("h2");
+        this.salads_items = this.createEl("div", "salads-items");
 
-        this.menuItem1 = this.createEl("div", "menu-item-1");
+
+        this.menuItem1 = this.createEl("div", "menu-item");
         this.menuItem1_img = this.createEl("img");
         this.menuItem1_h3 = this.createEl("h3");
         this.menuItem1_p = this.createEl("p");
         this.menuItem1_span = this.createEl("span", "price");
 
-        this.menuItem2 = this.createEl("div", "menu-item-2");
+        this.menuItem2 = this.createEl("div", "menu-item");
         this.menuItem2_img = this.createEl("img");
         this.menuItem2_h3 = this.createEl("h3");
         this.menuItem2_p = this.createEl("p");
         this.menuItem2_span = this.createEl("span", "price");
 
-        this.menuItem3 = this.createEl("div", "menu-item-3");
+        this.menuItem3 = this.createEl("div", "menu-item");
         this.menuItem3_img = this.createEl("img");
         this.menuItem3_h3 = this.createEl("h3");
         this.menuItem3_p = this.createEl("p");
         this.menuItem3_span = this.createEl("span", "price");
 
-        this.menuItem4 = this.createEl("div", "menu-item-4");
+        this.menuItem4 = this.createEl("div", "menu-item");
         this.menuItem4_img = this.createEl("img");
         this.menuItem4_h3 = this.createEl("h3");
         this.menuItem4_p = this.createEl("p");
         this.menuItem4_span = this.createEl("span", "price");
 
-        this.menuItem5 = this.createEl("div", "menu-item-5");
+        this.menuItem5 = this.createEl("div", "menu-item");
         this.menuItem5_img = this.createEl("img");
         this.menuItem5_h3 = this.createEl("h3");
         this.menuItem5_p = this.createEl("p");
@@ -85,20 +87,21 @@ const MenuPage = {
         // Burgers
         this.burgers = this.createEl("div", "burgers");
         this.burgers_h2 = this.createEl("h2");
+        this.burgers_items = this.createEl("div", "burgers-items");
 
-        this.menuItem6 = this.createEl("div", "menu-item-6");
+        this.menuItem6 = this.createEl("div", "menu-item");
         this.menuItem6_img = this.createEl("img");
         this.menuItem6_h3 = this.createEl("h3");
         this.menuItem6_p = this.createEl("p");
         this.menuItem6_span = this.createEl("span", "price");
 
-        this.menuItem7 = this.createEl("div", "menu-item-7");
+        this.menuItem7 = this.createEl("div", "menu-item");
         this.menuItem7_img = this.createEl("img");
         this.menuItem7_h3 = this.createEl("h3");
         this.menuItem7_p = this.createEl("p");
         this.menuItem7_span = this.createEl("span", "price");
 
-        this.menuItem8 = this.createEl("div", "menu-item-8");
+        this.menuItem8 = this.createEl("div", "menu-item");
         this.menuItem8_img = this.createEl("img");
         this.menuItem8_h3 = this.createEl("h3");
         this.menuItem8_p = this.createEl("p");
@@ -107,20 +110,21 @@ const MenuPage = {
         // Sides
         this.sides = this.createEl("div", "sides");
         this.sides_h2 = this.createEl("h2");
-
-        this.menuItem9 = this.createEl("div", "menu-item-9");
+        this.sides_items = this.createEl("div", "sides-items");
+        
+        this.menuItem9 = this.createEl("div", "menu-item");
         this.menuItem9_img = this.createEl("img");
         this.menuItem9_h3 = this.createEl("h3");
         this.menuItem9_p = this.createEl("p");
         this.menuItem9_span = this.createEl("span", "price");
 
-        this.menuItem10 = this.createEl("div", "menu-item-10");
+        this.menuItem10 = this.createEl("div", "menu-item");
         this.menuItem10_img = this.createEl("img");
         this.menuItem10_h3 = this.createEl("h3");
         this.menuItem10_p = this.createEl("p");
         this.menuItem10_span = this.createEl("span", "price");
 
-        this.menuItem11 = this.createEl("div", "menu-item-11");
+        this.menuItem11 = this.createEl("div", "menu-item");
         this.menuItem11_img = this.createEl("img");
         this.menuItem11_h3 = this.createEl("h3");
         this.menuItem11_p = this.createEl("p");
@@ -129,14 +133,15 @@ const MenuPage = {
         // Desserts
         this.dessert = this.createEl("div", "dessert");
         this.dessert_h2 = this.createEl("h2");
+        this.dessert_items = this.createEl("div", "dessert-items");
 
-        this.menuItem12 = this.createEl("div", "menu-item-12");
+        this.menuItem12 = this.createEl("div", "menu-item");
         this.menuItem12_img = this.createEl("img");
         this.menuItem12_h3 = this.createEl("h3");
         this.menuItem12_p = this.createEl("p");
         this.menuItem12_span = this.createEl("span", "price");
 
-        this.menuItem13 = this.createEl("div", "menu-item-13");
+        this.menuItem13 = this.createEl("div", "menu-item");
         this.menuItem13_img = this.createEl("img");
         this.menuItem13_h3 = this.createEl("h3");
         this.menuItem13_p = this.createEl("p");
@@ -148,26 +153,27 @@ const MenuPage = {
         // Alcohol
         this.alcohol = this.createEl("div", "alcohol");
         this.alcohol_h2 = this.createEl("h2");
+        this.alcohol_items = this.createEl("div", "alcohol-items");
 
-        this.menuItem14 = this.createEl("div", "menu-item-14");
+        this.menuItem14 = this.createEl("div", "menu-item");
         this.menuItem14_img = this.createEl("img");
         this.menuItem14_h3 = this.createEl("h3");
         this.menuItem14_p = this.createEl("p");
         this.menuItem14_span = this.createEl("span", "price");
 
-        this.menuItem15 = this.createEl("div", "menu-item-15");
+        this.menuItem15 = this.createEl("div", "menu-item");
         this.menuItem15_img = this.createEl("img");
         this.menuItem15_h3 = this.createEl("h3");
         this.menuItem15_p = this.createEl("p");
         this.menuItem15_span = this.createEl("span", "price");
 
-        this.menuItem16 = this.createEl("div", "menu-item-16");
+        this.menuItem16 = this.createEl("div", "menu-item");
         this.menuItem16_img = this.createEl("img");
         this.menuItem16_h3 = this.createEl("h3");
         this.menuItem16_p = this.createEl("p");
         this.menuItem16_span = this.createEl("span", "price");
 
-        this.menuItem17 = this.createEl("div", "menu-item-17");
+        this.menuItem17 = this.createEl("div", "menu-item");
         this.menuItem17_img = this.createEl("img");
         this.menuItem17_h3 = this.createEl("h3");
         this.menuItem17_p = this.createEl("p");
@@ -176,20 +182,21 @@ const MenuPage = {
         // Soft Drinks
         this.softDrinks = this.createEl("div", "soft-drinks");
         this.softDrinks_h2 = this.createEl("h2");
+        this.softDrinks_items = this.createEl("div", "soft-drinks-items");
 
-        this.menuItem18 = this.createEl("div", "menu-item-18");
+        this.menuItem18 = this.createEl("div", "menu-item");
         this.menuItem18_img = this.createEl("img");
         this.menuItem18_h3 = this.createEl("h3");
         this.menuItem18_p = this.createEl("p");
         this.menuItem18_span = this.createEl("span", "price");
 
-        this.menuItem19 = this.createEl("div", "menu-item-19");
+        this.menuItem19 = this.createEl("div", "menu-item");
         this.menuItem19_img = this.createEl("img");
         this.menuItem19_h3 = this.createEl("h3");
         this.menuItem19_p = this.createEl("p");
         this.menuItem19_span = this.createEl("span", "price");
 
-        this.menuItem20 = this.createEl("div", "menu-item-20");
+        this.menuItem20 = this.createEl("div", "menu-item");
         this.menuItem20_img = this.createEl("img");
         this.menuItem20_h3 = this.createEl("h3");
         this.menuItem20_p = this.createEl("p");
@@ -355,32 +362,33 @@ const MenuPage = {
 
         // Salads
         this.salads.appendChild(this.salads_h2);
+        this.salads.appendChild(this.salads_items);
 
-        this.salads.appendChild(this.menuItem1);
+        this.salads_items.appendChild(this.menuItem1);
         this.menuItem1.appendChild(this.menuItem1_img);
         this.menuItem1.appendChild(this.menuItem1_h3);
         this.menuItem1.appendChild(this.menuItem1_p);
         this.menuItem1.appendChild(this.menuItem1_span);
 
-        this.salads.appendChild(this.menuItem2);
+        this.salads_items.appendChild(this.menuItem2);
         this.menuItem2.appendChild(this.menuItem2_img);
         this.menuItem2.appendChild(this.menuItem2_h3);
         this.menuItem2.appendChild(this.menuItem2_p);
         this.menuItem2.appendChild(this.menuItem2_span);
 
-        this.salads.appendChild(this.menuItem3);
+        this.salads_items.appendChild(this.menuItem3);
         this.menuItem3.appendChild(this.menuItem3_img);
         this.menuItem3.appendChild(this.menuItem3_h3);
         this.menuItem3.appendChild(this.menuItem3_p);
         this.menuItem3.appendChild(this.menuItem3_span);
 
-        this.salads.appendChild(this.menuItem4);
+        this.salads_items.appendChild(this.menuItem4);
         this.menuItem4.appendChild(this.menuItem4_img);
         this.menuItem4.appendChild(this.menuItem4_h3);
         this.menuItem4.appendChild(this.menuItem4_p);
         this.menuItem4.appendChild(this.menuItem4_span);
 
-        this.salads.appendChild(this.menuItem5);
+        this.salads_items.appendChild(this.menuItem5);
         this.menuItem5.appendChild(this.menuItem5_img);
         this.menuItem5.appendChild(this.menuItem5_h3);
         this.menuItem5.appendChild(this.menuItem5_p);
@@ -388,20 +396,21 @@ const MenuPage = {
 
         // Burgers
         this.burgers.appendChild(this.burgers_h2);
+        this.burgers.appendChild(this.burgers_items);
 
-        this.burgers.appendChild(this.menuItem6);
+        this.burgers_items.appendChild(this.menuItem6);
         this.menuItem6.appendChild(this.menuItem6_img);
         this.menuItem6.appendChild(this.menuItem6_h3);
         this.menuItem6.appendChild(this.menuItem6_p);
         this.menuItem6.appendChild(this.menuItem6_span);
 
-        this.burgers.appendChild(this.menuItem7);
+        this.burgers_items.appendChild(this.menuItem7);
         this.menuItem7.appendChild(this.menuItem7_img);
         this.menuItem7.appendChild(this.menuItem7_h3);
         this.menuItem7.appendChild(this.menuItem7_p);
         this.menuItem7.appendChild(this.menuItem7_span);
 
-        this.burgers.appendChild(this.menuItem8);
+        this.burgers_items.appendChild(this.menuItem8);
         this.menuItem8.appendChild(this.menuItem8_img);
         this.menuItem8.appendChild(this.menuItem8_h3);
         this.menuItem8.appendChild(this.menuItem8_p);
@@ -409,20 +418,21 @@ const MenuPage = {
 
         // Sides
         this.sides.appendChild(this.sides_h2);
+        this.sides.appendChild(this.sides_items);
 
-        this.sides.appendChild(this.menuItem9);
+        this.sides_items.appendChild(this.menuItem9);
         this.menuItem9.appendChild(this.menuItem9_img);
         this.menuItem9.appendChild(this.menuItem9_h3);
         this.menuItem9.appendChild(this.menuItem9_p);
         this.menuItem9.appendChild(this.menuItem9_span);
 
-        this.sides.appendChild(this.menuItem10);
+        this.sides_items.appendChild(this.menuItem10);
         this.menuItem10.appendChild(this.menuItem10_img);
         this.menuItem10.appendChild(this.menuItem10_h3);
         this.menuItem10.appendChild(this.menuItem10_p);
         this.menuItem10.appendChild(this.menuItem10_span);
 
-        this.sides.appendChild(this.menuItem11);
+        this.sides_items.appendChild(this.menuItem11);
         this.menuItem11.appendChild(this.menuItem11_img);
         this.menuItem11.appendChild(this.menuItem11_h3);
         this.menuItem11.appendChild(this.menuItem11_p);
@@ -430,14 +440,15 @@ const MenuPage = {
 
         // Desserts
         this.dessert.appendChild(this.dessert_h2);
+        this.dessert.appendChild(this.dessert_items);
 
-        this.dessert.appendChild(this.menuItem12);
+        this.dessert_items.appendChild(this.menuItem12);
         this.menuItem12.appendChild(this.menuItem12_img);
         this.menuItem12.appendChild(this.menuItem12_h3);
         this.menuItem12.appendChild(this.menuItem12_p);
         this.menuItem12.appendChild(this.menuItem12_span);
 
-        this.dessert.appendChild(this.menuItem13);
+        this.dessert_items.appendChild(this.menuItem13);
         this.menuItem13.appendChild(this.menuItem13_img);
         this.menuItem13.appendChild(this.menuItem13_h3);
         this.menuItem13.appendChild(this.menuItem13_p);
@@ -449,26 +460,27 @@ const MenuPage = {
 
         // Alcohol
         this.alcohol.appendChild(this.alcohol_h2);
+        this.alcohol.appendChild(this.alcohol_items);
 
-        this.alcohol.appendChild(this.menuItem14);
+        this.alcohol_items.appendChild(this.menuItem14);
         this.menuItem14.appendChild(this.menuItem14_img);
         this.menuItem14.appendChild(this.menuItem14_h3);
         this.menuItem14.appendChild(this.menuItem14_p);
         this.menuItem14.appendChild(this.menuItem14_span);
 
-        this.alcohol.appendChild(this.menuItem15);
+        this.alcohol_items.appendChild(this.menuItem15);
         this.menuItem15.appendChild(this.menuItem15_img);
         this.menuItem15.appendChild(this.menuItem15_h3);
         this.menuItem15.appendChild(this.menuItem15_p);
         this.menuItem15.appendChild(this.menuItem15_span);
 
-        this.alcohol.appendChild(this.menuItem16);
+        this.alcohol_items.appendChild(this.menuItem16);
         this.menuItem16.appendChild(this.menuItem16_img);
         this.menuItem16.appendChild(this.menuItem16_h3);
         this.menuItem16.appendChild(this.menuItem16_p);
         this.menuItem16.appendChild(this.menuItem16_span);
 
-        this.alcohol.appendChild(this.menuItem17);
+        this.alcohol_items.appendChild(this.menuItem17);
         this.menuItem17.appendChild(this.menuItem17_img);
         this.menuItem17.appendChild(this.menuItem17_h3);
         this.menuItem17.appendChild(this.menuItem17_p);
@@ -476,20 +488,21 @@ const MenuPage = {
 
         // Soft Drinks
         this.softDrinks.appendChild(this.softDrinks_h2);
+        this.softDrinks.appendChild(this.softDrinks_items);
 
-        this.softDrinks.appendChild(this.menuItem18);
+        this.softDrinks_items.appendChild(this.menuItem18);
         this.menuItem18.appendChild(this.menuItem18_img);
         this.menuItem18.appendChild(this.menuItem18_h3);
         this.menuItem18.appendChild(this.menuItem18_p);
         this.menuItem18.appendChild(this.menuItem18_span);
 
-        this.softDrinks.appendChild(this.menuItem19);
+        this.softDrinks_items.appendChild(this.menuItem19);
         this.menuItem19.appendChild(this.menuItem19_img);
         this.menuItem19.appendChild(this.menuItem19_h3);
         this.menuItem19.appendChild(this.menuItem19_p);
         this.menuItem19.appendChild(this.menuItem19_span);
 
-        this.softDrinks.appendChild(this.menuItem20);
+        this.softDrinks_items.appendChild(this.menuItem20);
         this.menuItem20.appendChild(this.menuItem20_img);
         this.menuItem20.appendChild(this.menuItem20_h3);
         this.menuItem20.appendChild(this.menuItem20_p);
