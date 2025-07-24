@@ -1,11 +1,11 @@
-import "./styles.css";
-import "./home.css";
-import "./menu.css";
-import "./about.css";
+import "./css/styles.css";
+import "./css/home.css";
+import "./css/menu.css";
+import "./css/about.css";
 
-import renderHome from "./home";
-import renderMenu from "./menu";
-import renderAbout from "./about";
+import renderHome from "./scripts/home";
+import renderMenu from "./scripts/menu";
+import renderAbout from "./scripts/about";
 
 const Index = {
     init() {

@@ -1,4 +1,4 @@
-import mimosaImg from "./images/mimosa-cocktail-with-dark-background.jpg";
+import mimosaImg from "../images/mimosa-cocktail-with-dark-background.jpg";
 
 const HomePage = {
     init() {
