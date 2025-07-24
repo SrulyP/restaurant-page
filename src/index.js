@@ -1,5 +1,7 @@
 import "./styles.css";
+import "./home.css";
 import "./menu.css";
+// import "./about.css";
 
 import renderHome from "./home";
 import renderMenu from "./menu";
